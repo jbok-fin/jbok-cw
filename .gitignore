@@ -1,0 +1,30 @@
+# Home/dotfiles — never commit these
+.bashrc
+.zshrc
+.zcompdump
+.claude/
+.cache/
+.conda/
+.config/
+.kube/
+.local/
+.npm/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Generated data artifacts (keep in exports/, out of git)
+exports/
+*.xlsx
+*.csv
+*.png
+*.parquet
+
+# Secrets
+.env
+*.key
